@@ -16,11 +16,15 @@ Instantiate `DeferredVec` with a `fetch_function` defining the initial state. Th
 Basic usage:
 ```rust
 let mut deferred_vector = DeferredVec::new(|| vec![1, 2, 3]);
+assert_eq!(deferred_vector.is_deferred(), true);
+```
+Fetch de vector data:
+```rust
 assert_eq!(deferred_vector.len(), 3);
 ```
-Check if the vector is deferred:
+
+Check if the vector is not deferred:
 ```rust
-assert_eq!(deferred_vector.is_deferred(), true);
 let initialized_vector = deferred_vector.get();
 assert_eq!(deferred_vector.is_deferred(), false);
 ```
