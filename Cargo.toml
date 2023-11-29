@@ -1,10 +1,10 @@
 [package]
 name = "deferred_vector"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "A deferred vector implementation"
-repository = "https://github.com/afmiguel/deffered_vector"
+repository = "https://github.com/afmiguel/deferred_vector"
 readme = "README.md"
 keywords = ["deferred", "vector", "rust", "rust-lang",]
 categories = ["data-structures", "algorithms", "rust-lang", "rust"]
