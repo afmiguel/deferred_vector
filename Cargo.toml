@@ -9,6 +9,6 @@ readme = "README.md"
 keywords = ["deferred", "vector", "rust", "rust-lang",]
 categories = ["data-structures", "algorithms", "rust-lang", "rust"]
 authors = ["Prof. Afonso Miguel - PUCPR"]
-documentation = ""
+documentation = "https://docs.rs/deferred_vector"
 
 [dependencies]
