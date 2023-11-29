@@ -5,11 +5,9 @@ edition = "2021"
 description = "A deferred vector implementation"
 repository = "https://github.com/afmiguel/deffered_vector"
 readme = "README.md"
-keywords = ["canvas", "lms", "api", "connector", "rust"]
-categories = ["web-programming", "network-programming", "education", "canvas", "lms", "api", "connector", "rust"]
+keywords = ["deferred", "vector", "rust", "rust-lang",]
+categories = ["data-structures", "algorithms", "rust-lang", "rust"]
 authors = ["Prof. Afonso Miguel - PUCPR"]
-documentation = "https://docs.rs/canvas_lms_connector"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+documentation = ""
 
 [dependencies]
